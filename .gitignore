@@ -1,6 +1,12 @@
+# IDE files
 .idea/
+*.iml
+*.ipr
+*.iws
 
+# Gradle files
 .gradle
+build/
 **/build/
 !src/**/build/
 
@@ -21,3 +27,6 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# macOS specific
+.DS_Store
