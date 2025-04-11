@@ -28,5 +28,8 @@ gradle-app.setting
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
+# Kotlin
+kotlin/
+
 # macOS specific
 .DS_Store
