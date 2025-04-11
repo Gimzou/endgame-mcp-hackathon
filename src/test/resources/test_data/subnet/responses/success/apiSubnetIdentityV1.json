@@ -1,0 +1,52 @@
+{
+  "pagination": {
+    "current_page": 2,
+    "per_page": 4,
+    "total_items": 90,
+    "total_pages": 23,
+    "next_page": 3,
+    "prev_page": 1
+  },
+  "data": [
+    {
+      "netuid": 4,
+      "subnet_name": "Targon",
+      "github_repo": "https://github.com/manifold-inc/targon",
+      "subnet_contact": "devs@manifold.inc",
+      "subnet_url": "https://targon.com",
+      "discord": "",
+      "description": "Targon is a decentalized, frontier AI lab",
+      "additional": ""
+    },
+    {
+      "netuid": 5,
+      "subnet_name": "OpenKaito",
+      "github_repo": "https://github.com/OpenKaito/openkaito",
+      "subnet_contact": "webroot@kaito.ai",
+      "subnet_url": "https://sn5.kaito.ai/",
+      "discord": "",
+      "description": "Creating SOTA embedding models through decentralized incentives",
+      "additional": ""
+    },
+    {
+      "netuid": 6,
+      "subnet_name": "Infinite Games",
+      "github_repo": "https://github.com/amedeo-gigaver/infinite_games",
+      "subnet_contact": "",
+      "subnet_url": "https://www.infinitegam.es/",
+      "discord": "",
+      "description": "",
+      "additional": ""
+    },
+    {
+      "netuid": 7,
+      "subnet_name": "SubVortex",
+      "github_repo": "https://github.com/eclipsevortex/SubVortex",
+      "subnet_contact": "",
+      "subnet_url": "",
+      "discord": "",
+      "description": "a FREE alternative to finney, just use --network subvortex",
+      "additional": ""
+    }
+  ]
+}

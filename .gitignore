@@ -29,7 +29,7 @@ gradle-app.setting
 .classpath
 
 # Kotlin
-kotlin/
+.kotlin
 
 # macOS specific
 .DS_Store
