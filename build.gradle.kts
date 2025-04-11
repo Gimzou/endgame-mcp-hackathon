@@ -1,8 +1,8 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-val mcpVersion = "0.3.0"
+val mcpVersion = "0.4.0"
 val slf4jVersion = "2.0.9"
 val ktorVersion = "3.1.1"
+val mockkVersion = "1.14.0"
 
 plugins {
     kotlin("jvm") version "2.1.20"
@@ -24,6 +24,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("io.ktor:ktor-client-mock:$ktorVersion")
+    testImplementation("io.mockk:mockk:${mockkVersion}")
+
     implementation("io.modelcontextprotocol:kotlin-sdk:$mcpVersion")
     implementation("org.slf4j:slf4j-nop:$slf4jVersion")
     implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")

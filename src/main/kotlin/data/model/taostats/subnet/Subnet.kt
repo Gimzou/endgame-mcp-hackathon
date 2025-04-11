@@ -1,0 +1,53 @@
+package data.model.taostats.subnet
+
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class Subnet(
+    @SerialName("block_number") val blockNumber: Long,
+    val timestamp: String,
+    val netuid: Int,
+    val owner: Owner?,
+    @SerialName("registration_block_number") val registrationBlockNumber: Long?,
+    @SerialName("registration_timestamp") val registrationTimestamp: String,
+    @SerialName("registration_cost") val registrationCost: String,
+    @SerialName("neuron_registration_cost") val neuronRegistrationCost: String,
+    @SerialName("max_neurons") val maxNeurons: Int,
+    @SerialName("active_keys") val activeKeys: Int,
+    val validators: Int,
+    @SerialName("active_validators") val activeValidators: Int,
+    @SerialName("active_miners") val activeMiners: Int,
+    @SerialName("active_dual") val activeDual: Int,
+    val modality: Int?,
+    val emission: String,
+    val rho: Int,
+    val kappa: Int,
+    @SerialName("immunity_period") val immunityPeriod: Int,
+    @SerialName("min_allowed_weights") val minAllowedWeights: Int,
+    @SerialName("max_weights_limit") val maxWeightsLimit: Int,
+    val tempo: Int,
+    @SerialName("min_difficulty") val minDifficulty: String,
+    @SerialName("max_difficulty") val maxDifficulty: String,
+    @SerialName("weights_version") val weightsVersion: String,
+    @SerialName("weights_rate_limit") val weightsRateLimit: String,
+    @SerialName("adjustment_interval") val adjustmentInterval: Int,
+    @SerialName("activity_cutoff") val activityCutoff: Int,
+    @SerialName("registration_allowed") val registrationAllowed: Boolean,
+    @SerialName("target_regs_per_interval") val targetRegsPerInterval: Int,
+    @SerialName("min_burn") val minBurn: String,
+    @SerialName("max_burn") val maxBurn: String,
+    @SerialName("bonds_moving_avg") val bondsMovingAvg: String,
+    @SerialName("max_regs_per_block") val maxRegsPerBlock: Int,
+    @SerialName("serving_rate_limit") val servingRateLimit: String,
+    @SerialName("max_validators") val maxValidators: Int,
+    @SerialName("adjustment_alpha") val adjustmentAlpha: String,
+    val difficulty: String,
+    @SerialName("last_adjustment_block") val lastAdjustmentBlock: Long,
+    @SerialName("blocks_since_last_step") val blocksSinceLastStep: Int,
+    @SerialName("blocks_until_next_epoch") val blocksUntilNextEpoch: Int,
+    @SerialName("blocks_until_next_adjustment") val blocksUntilNextAdjustment: Int,
+    @SerialName("recycled_lifetime") val recycledLifetime: String,
+    @SerialName("recycled_24_hours") val recycled24Hours: String,
+    @SerialName("recycled_since_registration") val recycledSinceRegistration: String
+)

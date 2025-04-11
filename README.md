@@ -2,7 +2,7 @@
 
 ## Overview
 
-Build an innovative Model Context Protocol (MCP) implementation for Masa's Subnet 42. Think of MCP as a USB-C port for AI applications - it standardizes how AI models connect to and utilize different data sources and contextual information.
+Build an innovative Model Context Protocol (MCP) implementation for Masa's Subnet 42. Think of MCP as a USB-C port for AI applications - it standardizes how AI model connect to and utilize different data sources and contextual information.
 
 ## Prize Pool: $5,000 USDC
 - 🥇 1st place: $2,500
@@ -54,7 +54,7 @@ Build an innovative Model Context Protocol (MCP) implementation for Masa's Subne
 
 ## What is MCP?
 
-MCP ensures models evolve beyond static training data by:
+MCP ensures model evolve beyond static training data by:
 - Providing standardized access to contextual data
 - Enabling real-time data integration
 - Supporting dynamic context management
