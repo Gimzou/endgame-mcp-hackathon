@@ -7,7 +7,7 @@ import kotlinx.serialization.Serializable
 data class SubnetIdentity(
     val netuid: Int,
     @SerialName("subnet_name") val subnetName: String,
-    @SerialName("github_repo") val githubRepo: String?,
+    @SerialName("github_repo") val gitHubRepo: String?,
     @SerialName("subnet_contact") val subnetContact: String?,
     @SerialName("subnet_url") val subnetUrl: String?,
     val discord: String?,

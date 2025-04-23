@@ -1,2 +1,2 @@
 
-rootProject.name = "endgame-mcp-hackathon"
+rootProject.name = "bittensor-subnet-explorer"

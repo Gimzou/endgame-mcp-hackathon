@@ -1,7 +1,8 @@
-package data.network
+package data.network.taostats
 
 import data.model.taostats.PaginatedResponse
 import data.model.taostats.subnet.SubnetIdentity
+import data.util.ApiRequestHandler.ApiResult
 
 /**
  * Api for Taostats
@@ -15,5 +16,5 @@ interface TaostatsApi {
      *
      * @return paginated response with subnet identity
      */
-    suspend fun getSubnetIdentity(page: Int, perPage: Int) : PaginatedResponse<SubnetIdentity>
+    suspend fun getSubnetIdentity(page: Int, perPage: Int) : ApiResult<PaginatedResponse<SubnetIdentity>>
 }

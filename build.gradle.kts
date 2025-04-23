@@ -12,7 +12,7 @@ plugins {
 }
 
 group = "com.example"
-version = "1.0-SNAPSHOT"
+version = "0.0.1"
 
 application {
     mainClass.set("AppKt")
@@ -31,6 +31,9 @@ dependencies {
     implementation("org.slf4j:slf4j-nop:$slf4jVersion")
     implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
+
+    // Required for Base64 decoding
+    implementation("commons-codec:commons-codec:1.18.0")
 }
 
 tasks.test {
